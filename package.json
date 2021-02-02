@@ -1,0 +1,14 @@
+{
+  "name": "pull-bot",
+  "version": "1.0.0",
+  "description": "bot for telegram",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "author": "Lucas Cota <50468723+lucascdornelas@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.0.2"
+  }
+}
