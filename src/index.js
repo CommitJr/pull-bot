@@ -2,9 +2,9 @@ const env = require('../.env');
 const { Telegraf, Markup } = require('telegraf');
 const bot = new Telegraf(env.token);
 
-const { start } = require('./middlewares/start');
-const { private } = require('./middlewares/private');
-const { project } = require('./middlewares/project');
+const { start } = require('./middleware/start');
+const { private } = require('./middleware/private');
+const { project } = require('./middleware/project');
 
 bot.start(start);
 
